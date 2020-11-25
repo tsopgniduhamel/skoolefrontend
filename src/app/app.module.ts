@@ -41,7 +41,7 @@ import 'hammerjs';
         },
       },
     }),
-    MarkdownModule.forChild();
+    MarkdownModule.forChild(),
   ],
   providers: [],
   bootstrap: [AppComponent],
