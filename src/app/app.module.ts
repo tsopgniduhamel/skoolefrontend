@@ -11,9 +11,25 @@ import { SecurityContext } from '@angular/core';
 import { AppComponent } from './app.component';
 
 import 'hammerjs';
+import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
+import { LevelComponent } from './level/level.component';
+import { CourseComponent } from './course/course.component';
+import { HomeComponent } from './home/home.component';
+import { LoginComponent } from './login/login.component';
+import { UserComponent } from './user/user.component';
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [
+    AppComponent,
+    HeaderComponent,
+    FooterComponent,
+    LevelComponent,
+    CourseComponent,
+    HomeComponent,
+    LoginComponent,
+    UserComponent,
+  ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
