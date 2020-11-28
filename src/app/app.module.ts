@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { FlexLayoutModule } from '@angular/flex-layout';
+import { MatListModule } from '@angular/material/list';
 import { MarkdownModule, MarkedOptions } from 'ngx-markdown';
 import { HttpClientModule } from '@angular/common/http';
 import { HttpClient } from '@angular/common/http';
@@ -18,6 +19,12 @@ import { CourseComponent } from './course/course.component';
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
 import { UserComponent } from './user/user.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { CoursesComponent } from './courses/courses.component';
+import { LevelsComponent } from './levels/levels.component';
+
+import { AppRoutingModule } from './app-routing/app-routing.module';
+import { MatButtonModule, MatCardModule } from '@angular/material';
 
 @NgModule({
   declarations: [
@@ -29,12 +36,19 @@ import { UserComponent } from './user/user.component';
     HomeComponent,
     LoginComponent,
     UserComponent,
+    PageNotFoundComponent,
+    CoursesComponent,
+    LevelsComponent,
   ],
   imports: [
+    AppRoutingModule,
     BrowserModule,
     BrowserAnimationsModule,
     FlexLayoutModule,
+    MatListModule,
     MatToolbarModule,
+    MatCardModule,
+    MatButtonModule,
     HttpClientModule,
     // MarkdownModule.forRoot(),
     MarkdownModule.forRoot({
