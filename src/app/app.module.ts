@@ -22,9 +22,9 @@ import { UserComponent } from './user/user.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { CoursesComponent } from './courses/courses.component';
 import { LevelsComponent } from './levels/levels.component';
-
 import { AppRoutingModule } from './app-routing/app-routing.module';
 import { MatButtonModule, MatCardModule } from '@angular/material';
+import { MDBBootstrapModule } from 'angular-bootstrap-md';
 
 @NgModule({
   declarations: [
@@ -49,6 +49,7 @@ import { MatButtonModule, MatCardModule } from '@angular/material';
     MatToolbarModule,
     MatCardModule,
     MatButtonModule,
+    MDBBootstrapModule.forRoot(),
     HttpClientModule,
     // MarkdownModule.forRoot(),
     MarkdownModule.forRoot({
