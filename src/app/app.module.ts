@@ -1,5 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { NgModule, NO_ERRORS_SCHEMA } from '@angular/core';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { FlexLayoutModule } from '@angular/flex-layout';
@@ -25,6 +25,7 @@ import { LevelsComponent } from './levels/levels.component';
 
 import { AppRoutingModule } from './app-routing/app-routing.module';
 import { MatButtonModule, MatCardModule } from '@angular/material';
+import { MDBBootstrapModule } from 'angular-bootstrap-md';
 
 @NgModule({
   declarations: [
@@ -41,6 +42,7 @@ import { MatButtonModule, MatCardModule } from '@angular/material';
     LevelsComponent,
   ],
   imports: [
+    MDBBootstrapModule.forRoot(),
     AppRoutingModule,
     BrowserModule,
     BrowserAnimationsModule,
@@ -73,6 +75,7 @@ import { MatButtonModule, MatCardModule } from '@angular/material';
     }),
     MarkdownModule.forChild(),
   ],
+  schemas: [NO_ERRORS_SCHEMA],
   providers: [],
   bootstrap: [AppComponent],
 })

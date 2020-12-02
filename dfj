@@ -1,0 +1,71 @@
+[33mcommit 526dd9cac6ead55ac495be949d53b67ff15e4d6f[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: tsopgniduhamel <tsopgniduhamel@gmail.com>
+Date:   Sat Nov 28 17:10:04 2020 +0100
+
+    adding MDB bootstrap to our project
+
+[33mcommit b7d2f2cf58c91a5e3682a06c73ff37b8983a5a0b[m
+Author: tsopgniduhamel <tsopgniduhamel@gmail.com>
+Date:   Sat Nov 28 17:06:18 2020 +0100
+
+    teste sur les routes que j'ai créées
+
+[33mcommit 63d6d1df3af87d16503ab8a5678064405e4ed11e[m
+Author: tsopgniduhamel <tsopgniduhamel@gmail.com>
+Date:   Sat Nov 28 16:36:09 2020 +0100
+
+    adding the routing module, and creating the courses component, levels components, and the page-not-found component
+
+[33mcommit 19c6d82ea254f159fd07daad879cd383bba65c03[m
+Author: tsopgniduhamel <tsopgniduhamel@gmail.com>
+Date:   Thu Nov 26 17:09:58 2020 +0100
+
+    creating all the basic components
+
+[33mcommit 9e91fa3997d930b38e6170011eee96461ab845bc[m
+Author: tsopgniduhamel <tsopgniduhamel@gmail.com>
+Date:   Wed Nov 25 09:10:25 2020 +0100
+
+    intalling the latest version of flex-layout to solve the error that what occurring
+
+[33mcommit e4d31f64a2c66c1796fc0ac142ea653fd0134669[m
+Author: tsopgniduhamel <tsopgniduhamel@gmail.com>
+Date:   Wed Nov 25 08:21:03 2020 +0100
+
+    testing the tutorial of ngx-markdown
+
+[33mcommit 66b21a7df7005e76a370d4adf64e2aa3d722ee11[m
+Author: tsopgniduhamel <tsopgniduhamel@gmail.com>
+Date:   Wed Nov 25 07:41:31 2020 +0100
+
+    setting up the styles and the scripts that will be usefull for markdown display
+
+[33mcommit 4e48032815f77ed57f12318bb9f7091f93f67076[m
+Author: tsopgniduhamel <tsopgniduhamel@gmail.com>
+Date:   Wed Nov 25 07:32:51 2020 +0100
+
+    installing ngx-markdown
+
+[33mcommit 1d67c289abfe8c621cf1359290c0aed0c76f43fd[m
+Author: tsopgniduhamel <tsopgniduhamel@gmail.com>
+Date:   Tue Nov 24 23:22:15 2020 +0100
+
+    adding the installed modules to the app.module.ts, replacing the default content of the index.html and importing a prebuilt-theme for css; we will change it later
+
+[33mcommit 015f1967c3fded1c50dce6a0300c02d14273c99e[m
+Author: tsopgniduhamel <tsopgniduhamel@gmail.com>
+Date:   Tue Nov 24 23:00:32 2020 +0100
+
+    adding angular flex-layout
+
+[33mcommit 310ca31eef54dd4b77b4e9d1f6f3e54c81857091[m
+Author: tsopgniduhamel <tsopgniduhamel@gmail.com>
+Date:   Tue Nov 24 22:58:05 2020 +0100
+
+    setting up the environment by putting angular material, angular cdk, angular animations and hammerjs
+
+[33mcommit 990df93631f395fb98bedbeb41b4b3851e161061[m
+Author: tsopgniduhamel <tsopgniduhamel@gmail.com>
+Date:   Tue Nov 24 20:25:28 2020 +0100
+
+    initial commit
